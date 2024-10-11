@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>name을 이용한 선택자</title>
+</head>
+<body>
+  <div>
+    <form action="">
+      <!-- <div><input type="text" name="id" placeholder="아이디" value="kmk1234"></div>
+      <div><input type="text" name="password" placeholder="비밀번호" value="1234"></div> -->
+      <div><label for=""><input type="checkbox" name="language" value="C언어" checked id="">C언어</label></div>
+      <div><label for=""><input type="checkbox" name="language" value="Python" id="">Python</label></div>
+      <div><label for=""><input type="checkbox" name="language" value="JAVA" id="">JAVA</label></div>
+    </form>
+  </div>
+</body>
+<script>
+  // const id = document.getElementsByName("id")[0];
+  // console.log(id.value);
+  // id.value = "김민경"; //저장공간
+
+  // const checkboxs = document.getElementsByName("language");
+  // checkboxs.forEach((checkbox) => {
+  //   checkbox.checked = true;
+  // });
+  // console.log(checkboxs);
+
+
+  // checkbox를 name선택자로 가져와서 안에 있는 value를 모두 출력하기
+    const languages = document.getElementsByName("language");
+    languages.forEach((language) => {
+      console.log(language.value);
+    }); 
+
+</script>
+</html>

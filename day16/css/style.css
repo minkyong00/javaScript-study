@@ -1,0 +1,22 @@
+table {
+  position: relative;
+  left: 5%;
+  text-align: center;
+}
+
+h3 {
+  position: relative;
+  left: 6%;
+  margin: 0;
+}
+
+thead tr {
+  background-color: #fff9c4;
+}
+
+fieldset {
+  position: relative;
+  left: 2%;
+  width: 45px;
+  text-align: center;
+}
